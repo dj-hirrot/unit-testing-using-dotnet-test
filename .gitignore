@@ -1,0 +1,5 @@
+PrimeService.Tests/obj/*
+.vs/*
+PrimeService.Tests/obj/Debug/*
+PrimeService/bin/*
+PrimeService/obj/Debug/*
