@@ -1,4 +1,7 @@
 PrimeService/obj/Debug/*
 PrimeService/bin/*
 PrimeService.Tests/obj/*
+PrimeService.Tests/bin/*
+*.nuget.cache
+*.nuget.dgspec.json
 .vs/*
