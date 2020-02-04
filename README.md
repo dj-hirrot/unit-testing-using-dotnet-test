@@ -57,6 +57,17 @@ At this point project structure as below.
 │       └── project.assets.json
 └── unit-testing-using-dotnet-test.sln
 ```
+The test fails because IsPrime hasn't been implemented. Using the TDD approach, write only enough code so this test passes. Update IsPrime with the following code:
+```C#
+public bool IsPrime(int candidate)
+{
+    if (candidate == 1)
+    {
+        return false;
+    }
+    throw new NotImplementedException("Not fully implemented.");
+}
+```
 
 ----
 
