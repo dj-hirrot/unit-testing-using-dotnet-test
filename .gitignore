@@ -4,4 +4,6 @@ PrimeService.Tests/obj/*
 PrimeService.Tests/bin/*
 *.nuget.cache
 *.nuget.dgspec.json
+*.nuget.g.props
+*.assets.json
 .vs/*
