@@ -3,21 +3,22 @@ using Prime.Service;
 
 namespace Prime.UnitTests.Service
 {
-  public class PrimeService_IsPrimeShould
-  {
-    private readonly PrimeService _primeService;
-
-    public PrimeService_IsPrimeShould()
+    public class PrimeService_IsPrimeShould
     {
-      _primeService = new PrimeService();
-    }
+        private readonly PrimeService _primeService;
 
-    [Fact]
-    public void IsPrime_InputIs1_ReturnFalse()
-    {
-      var result = _primeService.IsPrime(1);
+        public PrimeService_IsPrimeShould()
+        {
+            _primeService = new PrimeService();
+        }
 
-      Assert.False(result, "1 should not be prime");
+
+        [Fact]
+        public void IsPrime_InputIs1_ReturnFalse()
+        {
+            var result = _primeService.IsPrime(1);
+
+            Assert.False(result, "1 should not be prime");
+        }
     }
-  }
 }
